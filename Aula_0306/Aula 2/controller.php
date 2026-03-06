@@ -3,5 +3,13 @@
 
  include 'data.php';
 
+ $data = new Data();
+
+ $data->setNome($nome);
  
+ include "action.php";
+
+ $action = new action();
+
+ $action->print($data);
 ?>
