@@ -11,5 +11,5 @@
 
  $action = new action();
 
- $action->print($data);
+ $action->cadastrar(data:$data);
 ?>
